@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.58f
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o D:\siva\hw\ecg//xc -x xcf04s -u 00000000 D:/siva/hw/ecg/sr/main.bit 
+
+PROM D:\siva\hw\ecg\xc.prm map: Tue Apr 11 11:29:19 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 06f4bdbc
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0001:1bdb     Apr 11 11:23:14 2017 D:/siva/hw/ecg/sr/main.bit
